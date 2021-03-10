@@ -3,20 +3,25 @@ body{
   background-image: linear-gradient(to right bottom ,#00C9FF,#92FE9D);
   background-attachment: fixed;
 }
+
+a{
+  text-decoration: none;
+  color: #5e7275;
+}
+
+a:hover{
+  text-decoration: none;
+  color: black;
+
+}
 .container{
   padding-top: 50px;
 }
 .row{
   height: 90vh;
+  
 }
-.app__sidebar{
-  background-color:white;
-  height: 100%; 
-  border-radius: 20px;
-  padding: 25px 15px;
-  box-shadow: 0 0 10px black;
 
-}
 
 .app__main-content{
   background-color: white;
@@ -25,3 +30,69 @@ body{
   box-shadow: 0 0 10px black;
 }
 
+.sidebar{
+  background-color:white;
+  height: 100%; 
+  border-radius: 20px;
+  padding: 25px 15px;
+  box-shadow: 0 0 10px black;
+  text-align: center;
+
+}
+.sidebar__avatar{
+  height: 110px;
+  width: 120px;
+  object-fit: contain;
+  border-radius: 30px;
+}
+
+.sidebar__icon{
+  width: 25px;
+  height: 25px;
+}
+.sidebar__name{
+  font-family: kaushan Script;
+  margin: 20px 0;
+  font-size: 1.7rem;
+}
+
+.sidebar__name>span {
+  color: #929dfe;
+
+}
+
+.sidebar__item{
+    margin-bottom: 6px;
+   padding-top: 6px;
+    height: 40px;
+    font-size: 1.05rem; 
+    border-radius: 30px;
+}
+.sidebar__title{
+  background-color: antiquewhite;
+  border-radius: 30px;
+}
+
+.sidebar__contact{
+  background-color: #dbdddf;
+  padding: 2px 0;
+  margin:20px -15px;
+}
+
+.sidebar__email{
+  background-image: linear-gradient(to right bottom ,#00C9FF,#92FE9D);
+  border-radius: 30px;
+  color: rgb(10, 2, 2);
+  margin: 15px 25px 0px;
+  cursor: pointer;
+  transition: all 3s linear;
+}   
+
+.sidebar__email:hover{
+  transform:scale(1.2);}
+
+  .sidebar__github:hover,
+  .sidebar__resume:hover{
+  background-color: wheat;
+  color: black;
+  }
