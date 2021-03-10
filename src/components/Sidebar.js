@@ -23,13 +23,13 @@ const Sidebar = () => {
                 </div>
             </a>
             <figure className="sidebar__social-icons my-2">
-                <a href=""><img src={facebook} alt="facebook" className="sidebar__icon mr-3"/></a>
-                <a href=""><img src={instagram} alt="instagram" className="sidebar__icon"/></a>
+                <a href="https://www.facebook.com/suparan.dada/"><img src={facebook} alt="facebook" className="sidebar__icon mr-3"/></a>
+                <a href="https://www.instagram.com/suparan_sharma_pranto/"><img src={instagram} alt="instagram" className="sidebar__icon"/></a>
                 
             </figure>
             <div className="sidebar__contact">
                 <div className="sidebar__item sidebar__github">
-                    <a href=""><img src={github} alt="github" className="sidebar__icon mr-3" /></a>
+                    <a href="https://github.com/suparansharma"><img src={github} alt="github" className="sidebar__icon mr-3" /></a>
                 </div>
                 <div className="sidebar__location">
                     <img src={pin} alt="location" className="sidebar__icon mr-3"/>

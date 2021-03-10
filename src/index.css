@@ -96,3 +96,39 @@ a:hover{
   background-color: wheat;
   color: black;
   }
+  @media(max-width:991px){
+    .app__main-content{
+      margin: 30px 0;
+    }
+  }
+
+
+
+  /*Navbar*/
+
+  .navbar__items{
+    display: flex;
+  }
+
+  .navbar__active{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #354358;
+    border-bottom: 4px solid #00F260;
+
+  }
+
+  .navbar__item{
+    margin-right: 20px;
+    text-decoration:none;
+    color:  #354358;
+    font-size: 1.3rem;
+    cursor: pointer;
+  }
+
+  .navbar__item:hover{
+    background: -webkit-linear-gradient(#00C9FF,#92FE9D);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
