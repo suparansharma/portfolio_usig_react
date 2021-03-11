@@ -1,16 +1,22 @@
 //import logo from './logo.svg';
 // import './App.css';
 
-import React from 'react';  
-import Navbar from './components/Navbar';
+import React from 'react';
 import Sidebar from './components/Sidebar'
+import Navbar from './components/Navbar';
+import { BrowserRouter as Router, Route, Redirect, Switch } from 'react-router-dom';
+import About from './components/About';
+import Resume from './components/Resume';
+import Projects from './components/Projects';
+
 
 function App() {
 
   return (
-    <div className="App">
-      <div className="container">
-        <div className="row">
+    <Router>
+    <div className="app">
+      <div className="container app__container">
+        <div className="row app__row">
 
        
       
@@ -23,10 +29,26 @@ function App() {
       <div className="col-lg-9 app__main-content"> 
       {/*navbar*/ }
       <Navbar/>
+      <switch>
+      <Route exact path="/">
+                  <About />
+                </Route>
+                <Route path="/resume">
+                  <Resume />
+                </Route>
+                <Route path="/projects" component={Projects} />
+
+                <Route>
+                  <Redirect to= "/" />
+                </Route>
+                </switch>
+                
+      
         </div>
       </div>
       </div>
     </div>
+    </Router>
   );
 }
 

@@ -14,11 +14,11 @@ a:hover{
   color: black;
 
 }
-.container{
+.app__container{
   padding-top: 50px;
 }
-.row{
-  height: 90vh;
+.app__row{
+  height: 86vh;
   
 }
 
@@ -131,4 +131,46 @@ a:hover{
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+  }
+
+/*about*/
+
+  .about{
+    padding: 20px;
+    margin: -35px;
+  }
+
+  .about__intro{
+    font-size: 1.1rem;
+    padding: 20px;
+    margin: 10px 0;
+  }
+
+  .about__container{
+    background-color: #dbdddf;
+    padding: 30px 20px;
+  }
+
+  .about__heading{
+    font-size: 25px;
+    font-weight: 700;
+    color: #354538;
+    margin-left: 10px;
+  }
+
+  .skill-card{
+    background-color: white;
+    margin: 10px ;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+  }
+
+  .skill-card__icon{
+    width: 40px;
+    height: 40px;
+  }
+  .skill-card-body{
+    margin-right: 15px;
   }
