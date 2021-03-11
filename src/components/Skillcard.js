@@ -7,6 +7,7 @@ const Skillcard = ({skill:{icon,title}}) =>
                                 <div className="skill-card-body">
                                 <h6 className="skill-card__title">{title}</h6>
                                 
+                                
                                 </div>
                             </div>
                         </div>

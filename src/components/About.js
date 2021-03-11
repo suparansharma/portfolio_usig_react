@@ -25,10 +25,10 @@ const skills = [
         
        }, 
        { 
-        icon : api,
-        title : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, odit." 
-        
-       }, 
+     icon : api,
+     title : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, odit." 
+     
+    }, 
 
 
      {
@@ -36,8 +36,7 @@ const skills = [
         icon : api, 
         title : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, odit." 
 
-     },
-     ] 
+     }, ] 
         const About = () => {
              return ( 
              <div className="about"> 
