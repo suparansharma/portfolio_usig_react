@@ -1,40 +1,47 @@
 import React from 'react';
- import api from '../assets/icons/api.svg' 
+import api from '../assets/icons/api.svg' 
+import html from '../assets/icons/html.png'
+import css from '../assets/icons/css.png'
+import java from '../assets/icons/java.svg.png' 
+import cs from '../assets/icons/cs.png'
+import Cl from '../assets/icons/Cl.png'
+import clp from '../assets/icons/clp.jpg'
+
 import Skillcard from './Skillcard';
 const skills = [ 
     
     
     { 
-     icon : api,
-     title : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, odit." 
+     icon : html,
+     title : <p><b>HTML <br/> </b>I have some basic Knowledge about html.I do some project for meself to use html</p> 
      
     }, 
     { 
-        icon : api,
-        title : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, odit." 
+        icon : css,
+        title : <p><b>CSS <br/> </b>I have some basic Knowledge about CSS.I do some project for meself to use design in html use css</p> 
         
        }, 
        { 
-        icon : api,
-        title : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, odit." 
+        icon : java,
+        title : <p><b>Java <br/> </b>I have some basic Knowledge about java.I do a project for versity regular class.The project is about medicine shop</p> 
         
        }, 
        { 
-        icon : api,
-        title : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, odit." 
+        icon : cs,
+        title : <p><b>C# <br/> </b>I have some basic Knowledge about C#.png.I do a project for versity regular class.The project is about medicine shop</p> 
         
        }, 
        { 
-     icon : api,
-     title : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, odit." 
+     icon : Cl,
+     title :<p><b>C<br/> </b>I have some basic Knowledge about C </p> 
      
     }, 
 
 
      {
          
-        icon : api, 
-        title : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, odit." 
+        icon : clp, 
+        title : <p><b>C++<br/> </b>I have some basic Knowledge about C++ </p> 
 
      }, ] 
         const About = () => {
