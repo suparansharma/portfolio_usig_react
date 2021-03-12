@@ -1,10 +1,10 @@
 import React from 'react';
-import facebook from '../assets/icons/facebook.svg'
-import instagram from '../assets/icons/instagram.svg'
+import facebook from '../assets/icons/facebook.png'
+import instagram from '../assets/icons/instagram.jpg'
 import github from '../assets/icons/github.svg'
 import pin from '../assets/icons/pin.svg'
 import tie from '../assets/icons/tie.svg'
-import mightycoder from '../assets/mightycoder.svg'
+import mightycoder from '../assets/mightycoder.jpeg'
 import resume from '../assets/resume.pdf'
 
 const Sidebar = () => {
