@@ -188,7 +188,7 @@ a:hover{
 
 .resume-card__heading,
 .resume-language__heading {
-    margin-left: 10px;
+    margin-left: 0px;
     font-size: 1.8rem;
     font-weight: 700;
     color: #354538;

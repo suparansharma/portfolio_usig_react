@@ -48,7 +48,13 @@ const skills = [
              return ( 
              <div className="about"> 
              <h6 className="about__intro">
-                  Welcome to my portfolio.Here all about me.
+             I am a highly motivated computer science graduate eagerly looking
+              forward to stepping out of my comfort zone for new professional
+              challenges. My educational background endowed me with the
+              necessary skill sets to approach a problem from various
+              perspectives and get myself industryready. Currently, I am seeking
+              for a growing and rewarding career in web development where I can
+              apply my academic knowledge and technological skills
                    </h6>
               <div className="container about__container"> 
               <h6 className="about__heading">What I offer
