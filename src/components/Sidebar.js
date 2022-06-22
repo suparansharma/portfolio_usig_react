@@ -4,7 +4,7 @@ import instagram from '../assets/icons/instagram.jpg'
 import github from '../assets/icons/github.svg'
 import pin from '../assets/icons/pin.svg'
 import tie from '../assets/icons/tie.svg'
-import mightycoder from '../assets/mightycoder.jpeg'
+import mightycoder from '../assets/mightycoder.jpg'
 import resume from '../assets/resume.pdf'
 
 const Sidebar = () => {

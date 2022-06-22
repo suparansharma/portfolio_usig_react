@@ -48,7 +48,7 @@ const skills = [
              return ( 
              <div className="about"> 
              <h6 className="about__intro">
-                  Wellcome to my portfolio.Here all about me.
+                  Welcome to my portfolio.Here all about me.
                    </h6>
               <div className="container about__container"> 
               <h6 className="about__heading">What I offer
